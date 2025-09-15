@@ -12,8 +12,8 @@ const Navbar = () => {
         {open ? <FaTimes /> : <FaBars />}
       </div>
       <ul className={`md:flex md:space-x-6 absolute md:static bg-purple-400  text-white w-full md:w-auto left-0 top-16 md:top-0 transition-all ${open ? 'block' : 'hidden'}`}>
-        <li className="p-4 hover:text-yellow-400"><Link to="/">Home</Link></li>
-        <li className="p-4 hover:text-yellow-400"><Link to="/projects">Projects</Link></li>
+        <li className="p-4 hover:text-yellow-400"><Link to="/MyPortfolio/">Home</Link></li>
+        <li className="p-4 hover:text-yellow-400"><Link to="/MyPortfolio/projects">Projects</Link></li>
         <li className="p-4 hover:text-yellow-400"><Link to="/about">About</Link></li>
         <li className="p-4 hover:text-yellow-400"><Link to="/contact">Contact</Link></li>
       </ul>

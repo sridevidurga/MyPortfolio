@@ -17,7 +17,7 @@ const Home = () => {
         />
       </h2>
       <a
-        href="/projects"
+        href=" /MyPortfolio/projects "
         className="bg-yellow-400 text-purple-900 px-6 py-3 rounded-full font-bold hover:scale-110 transform transition duration-300 flex items-center gap-2"
         data-aos="zoom-in"
       >
